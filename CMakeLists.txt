@@ -10,6 +10,3 @@ add_definitions(${PCL_DEFINITIONS})
 
 add_executable (run_pcd_tutorials run_pcd_tutorials.cpp)
 target_link_libraries (run_pcd_tutorials ${PCL_LIBRARIES})
-
-# add_executable (correspondence_grouping correspondence_grouping.cpp)
-# target_link_libraries (correspondence_grouping ${PCL_LIBRARIES})
